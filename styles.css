@@ -96,19 +96,14 @@ ul {
   font-size: 0.8rem;
 }
 
-#price-frequency,
-#price {
-  display: inline-block;
-}
-
 #price-frequency {
-  position: relative;
-  top: -5px;
   font-size: 0.8rem;
   opacity: 0.7;
 }
 #price-container {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 650px) {
